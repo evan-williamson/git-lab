@@ -77,3 +77,60 @@ Untracked files:
         answers.md
 
 Answer 6:
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+        new file:   answers.md
+
+Answer 7:
+[master (root-commit) f788169] Initial commit
+ 2 files changed, 81 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 answers.md
+alchy@LAPTOP-7SSU1ITB:~/git-lab$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Answer 8:
+commit f788169e44c99df16d63e31f97bd29b2016aecc3 (HEAD -> master)
+Author: Evan Williamson <ew146023@ohio.edu>
+Date:   Tue Jan 21 10:45:06 2025 -0500
+
+Answer 9:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   answers.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Answer 10:
+No, the local copy was not updated.
+
+Answer 11:
+To https://github.com/evan-williamson/git-lab.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/evan-williamson/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Answer 12:
+Yes, the local copy now shows what was updated on the online repository.
+
+Answer 13:
+.  ..  .git  .gitignore  README.md
